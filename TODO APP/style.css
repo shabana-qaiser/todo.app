@@ -1,0 +1,145 @@
+ #main{
+    background: linear-gradient(45deg,pink,purple);
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100;
+    height: 100%;
+    margin-top: 90px;
+}
+
+.header{
+    text-align: center;
+    align-items: center;
+    margin: 330px;
+    margin-top: -70px;
+}
+.head{
+    color: white;
+    width: 800px;
+    height: 180px;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+
+}
+h2, h1{
+  margin: 20px;
+}
+#task{
+    width: 250px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 10px;
+}
+#btn{
+    margin-top: -15px;
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    font-weight: 2px;
+    
+}
+#btn :hover{
+    color:red;
+    cursor: pointer;
+}
+.dltBtn{
+    width: 100px !important;
+    height: 100px;
+
+}
+.fa-plus{
+    margin-top: 10px;
+    width: 100px;
+    height: 300px;
+}
+#date{
+    margin-top: -360px;
+    font-size: 40px;
+
+}
+
+.imp{
+  margin-top: 30px;
+}
+.container{
+    color: white;
+    width: 650px;
+    height: 450px;
+    text-align: center;
+    align-items: center;
+    margin: 0px;
+} 
+
+.fa-ban{
+  width: 135px;
+  height: 25px;
+  margin: 10px;
+  font-display: white;
+  text-align: center;
+  line-height: 105px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 900;
+  background: linear-gradient(45deg red);
+  box-shadow: 0 8px 25px black, 0 8px 25px red;
+  transition: all ease 0.1s;
+  cursor: pointer;
+
+}
+
+
+.fa-pencil-square-o{
+  width: 135px;
+  height: 25px;
+  margin: 10px;
+  text-align: center;
+  line-height: 105px;
+  border-radius: 50px;
+  color: white;
+  font-weight: 900;
+  background: linear-gradient(45deg green);
+  box-shadow: 0 8px 25px black, 0 8px 25px green;
+  transition: all ease 0.1s;
+  cursor: pointer;
+}
+
+#dltAll{
+   background-color: rgba(255, 0, 0, 0.637);
+}
+        
+#list{
+  margin-top: -90px;
+  text-align: center !important;
+  font-size: 25px;
+  text-decoration:solid;
+  color: rgb(251, 251, 251);
+  font-weight: 600;
+}
+
+.dateAndClear {
+margin-top: -140px;
+display: flex;
+padding: 10px;
+flex-wrap: wrap;
+align-items: center;
+text-shadow: 9px 6px 9px rgb(0, 0, 0);
+opacity:0.8 ;
+}
+      
+.dateAndClear #date {
+flex: 1;
+font-weight: bold;
+font-size: 25px;
+color: white;
+}
+      
+
+li{
+  border-bottom: 1px solid white;
+  color: white;
+  font-weight: bold;
+}
